@@ -14,10 +14,16 @@
     "format": "prettier --write \"**/*.{ts,js,json,md}\"",
     "format:check": "prettier --check \"**/*.{ts,js,json,md}\""
   },
-  "keywords": ["mcp", "model-context-protocol", "railway", "fastmcp"],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "railway",
+    "fastmcp"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
     "eslint": "^8.57.0",

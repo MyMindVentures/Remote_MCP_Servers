@@ -1,7 +1,7 @@
 {
   "name": "@remote-mcp/railway-server",
   "version": "1.0.0",
-  "description": "MCP server for Railway platform interactions",
+  "description": "MCP server for Railway platform interactions using FastMCP",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -12,8 +12,10 @@
   },
   "keywords": ["mcp", "template"],
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
-    "dotenv": "^16.4.1"
+    "fastmcp": "^3.25.4",
+    "zod": "^3.22.4",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
