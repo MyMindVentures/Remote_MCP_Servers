@@ -34,7 +34,11 @@
       "Bash(railway variables:*)",
       "Bash(grep:*)",
       "Bash(npm view:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(git push:*)",
+      "Bash(echo:*)",
+      "Bash(chmod:*)",
+      "Bash(bash deploy-to-railway.sh:*)"
     ]
   }
 }
