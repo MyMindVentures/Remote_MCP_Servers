@@ -6,7 +6,8 @@
       "build": {
         "builder": "DOCKERFILE",
         "dockerfilePath": "packages/railway-mcp-server/Dockerfile",
-        "dockerContext": "packages/railway-mcp-server"
+        "dockerContext": "packages/railway-mcp-server",
+        "watchPaths": ["packages/railway-mcp-server/**"]
       },
       "deploy": {
         "numReplicas": 1,
@@ -19,7 +20,8 @@
       "build": {
         "builder": "DOCKERFILE",
         "dockerfilePath": "packages/notion-mcp-server/Dockerfile",
-        "dockerContext": "packages/notion-mcp-server"
+        "dockerContext": "packages/notion-mcp-server",
+        "watchPaths": ["packages/notion-mcp-server/**"]
       },
       "deploy": {
         "numReplicas": 1,
@@ -32,7 +34,8 @@
       "build": {
         "builder": "DOCKERFILE",
         "dockerfilePath": "packages/airtable-mcp-server/Dockerfile",
-        "dockerContext": "packages/airtable-mcp-server"
+        "dockerContext": "packages/airtable-mcp-server",
+        "watchPaths": ["packages/airtable-mcp-server/**"]
       },
       "deploy": {
         "numReplicas": 1,
@@ -45,7 +48,8 @@
       "build": {
         "builder": "DOCKERFILE",
         "dockerfilePath": "packages/linear-mcp-server/Dockerfile",
-        "dockerContext": "packages/linear-mcp-server"
+        "dockerContext": "packages/linear-mcp-server",
+        "watchPaths": ["packages/linear-mcp-server/**"]
       },
       "deploy": {
         "numReplicas": 1,
