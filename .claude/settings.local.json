@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(openspec --version:*)",
+      "Bash(openspec init:*)",
+      "Bash(openspec --help:*)",
+      "Bash(tree:*)",
+      "Bash(dir:*)",
+      "Bash(openspec list:*)",
+      "Bash(openspec validate:*)",
+      "Bash(openspec show:*)",
+      "Bash(npm run build:*)",
+      "Bash(ls:*)",
+      "Bash(railway --version:*)",
+      "Bash(railway whoami:*)",
+      "Bash(railway list:*)",
+      "Bash(railway link:*)",
+      "Bash(railway status:*)",
+      "Bash(railway up:*)",
+      "Bash(railway help:*)",
+      "Bash(railway add:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)"
+    ]
+  }
+}
